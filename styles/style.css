@@ -10,6 +10,10 @@ html {
     padding: 14px;
 }
 
+#logo {
+    float: left;
+}
+
 .NavBar {
     position: fixed;
     top: 0;
