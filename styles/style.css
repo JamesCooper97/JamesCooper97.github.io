@@ -10,6 +10,10 @@ html {
     padding: 14px;
 }
 
+#navbar a:hover {
+    background-color: #ffffff;
+}
+
 .NavBar {
     position: fixed;
     top: 0;
