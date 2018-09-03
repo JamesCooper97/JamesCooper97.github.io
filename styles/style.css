@@ -1,3 +1,7 @@
+.html {
+    background-color: blue;
+}
+
 #navbar a {
     float: right;
     display: block;
