@@ -10,10 +10,6 @@ html {
     padding: 14px;
 }
 
-#logo {
-    float: left;
-}
-
 .NavBar {
     position: fixed;
     top: 0;
@@ -28,4 +24,9 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about {
+    text-align: justify;
+    margin: 20%;
 }
