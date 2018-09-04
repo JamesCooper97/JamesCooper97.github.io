@@ -6,7 +6,7 @@ body {
     margin: 0px;
 }
 
-#navbar a {
+.Navbar a {
     float: right;
     display: block;
     color: #000000;
@@ -16,15 +16,19 @@ body {
     font-size: 24px;
 }
 
-#navbar a:hover {
-    background-color: #ffffff;
-}
-
-.NavBar {
+.Navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+}
+
+.white {
+    color: white;
+}
+
+.animate-top {
+    position:relative;
+    animation:animatetop 0.4s;
 }
 
 .parallax {
@@ -73,8 +77,6 @@ h1,h2 {
 }
 
 .table-middle {
-    width: 100% !important;
-    align: center;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
