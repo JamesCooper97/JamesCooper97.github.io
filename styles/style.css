@@ -6,20 +6,39 @@ body {
     margin: 0px;
 }
 
-.Navbar a {
-    float: right;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 24px;
+
+
+.bar-item: hover {
+    background-color: #000;
 }
 
 .Navbar {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color:#444444;
+    opacity: 0.7;
+}
+
+.bar-item {
+    padding:8px 16px;
+    float:right;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+    text-align:center;
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:#aaa444;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    opacity:1;
 }
 
 .white {
